@@ -1,0 +1,139 @@
+body {
+	background-image: url('../img/bck.jpg');
+}
+
+.button {
+	background-color: #EEEEEE;
+	margin-top: 4px;
+}
+
+.clear {
+	clear: both;
+}
+
+.container {
+	background-image: url('../img/white.png');
+	width: 100%;
+}
+
+.content {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin-top: 6px;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.footer {
+	background-image: url('../img/white.png');
+	color: #EEEEEE;
+	font-size: 12px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: center;
+	width: 100%;
+}
+div .error {
+	color: red;
+	margin-top: 10px;
+}
+
+.header .page-header {
+	color: #EEEEEE;
+	font-size: 24px;
+	margin: 20px 0 10px;
+	text-align: center;
+}
+
+.input {
+	border: none;
+	border-bottom: 1px solid;
+}
+
+.label {
+	color: #bbbbbb;
+	float: left;
+	font-size: 10px;
+	font-weight: inherit;
+	text-align: right;width: 100%;
+}
+
+.lluna {
+}
+
+.lluna-help {
+	float: right;
+	padding-top: 10px;
+}
+
+.lluna-help-ok {
+	margin-bottom: 10px;
+	margin-top: -10px;
+}
+
+.lluna-help-text .header {
+	font-size: 16px;
+}
+
+.lluna-help-text .content {
+	font-size: 12px;
+	padding-top: inherit;
+}
+
+.lluna-message {
+	min-height: 40px;
+	height: 100%;
+	width: 100%;
+}
+
+.lluna-message .image {
+	float: left;
+	height: 100%;
+	max-width: 40%;
+	text-align: center;
+	width: 40%;
+}
+
+.lluna-message .notice {
+	font-size: 8px;
+	text-align: center;
+	margin-bottom: 1px;
+}
+
+.lluna-message .text {
+	float: left;
+	height: 100%;
+	margin-right: 4px;
+	max-width: 50%;
+}
+
+.lluna-message .header {
+	font-size: 16px;
+	margin-bottom: 4px;
+}
+
+.lluna-message .content {
+	font-size: 12px;
+	margin-top: inherit;
+	padding: inherit;
+}
+
+.lluna-password  {
+	color: green;
+	margin-top: 10px;
+	min-width: 1px;
+}
+
+.lluna-password::selection {
+	background-color: green;
+}
+
+.lluna-password-label {
+	color: green;
+	margin-top: 10px;
+}
+
+.message {
+	background-image: url('../img/white.png');
+	height: 80px;
+}

@@ -1,18 +1,18 @@
-/** 
+/**
   * The MIT License (MIT)
-  * 
+  *
   * Copyright (c) 2015 laimagine
-  * 
+  *
   * Permission is hereby granted, free of charge, to any person obtaining a copy
   * of this software and associated documentation files (the "Software"), to deal
   * in the Software without restriction, including without limitation the rights
   * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
   * copies of the Software, and to permit persons to whom the Software is
   * furnished to do so, subject to the following conditions:
-  * 
+  *
   * The above copyright notice and this permission notice shall be included in all
   * copies or substantial portions of the Software.
-  * 
+  *
   * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
   * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
   * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -23,143 +23,103 @@
   *
   * <author>LA Imagine</author>
   * <email>contact@laimagine.com</email>
-  */ 
+  */
 body {
-	background-image: url('../img/bck.jpg');
-}
-
-.button {
-	background-color: #EEEEEE;
-	margin-top: 4px;
+  background-color: #ffffff;
+  color: #888888 !important;
 }
 
 .clear {
-	clear: both;
-}
-
-.container {
-	background-image: url('../img/white.png');
-	width: 100%;
+  clear: both;
 }
 
 .content {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-	margin-top: 6px;
-	padding-top: 10%;
-	padding-bottom: 10%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin-top: 6px;
+  padding-bottom: 10%;
 }
 
 .footer {
-	background-image: url('../img/white.png');
-	color: #EEEEEE;
-	font-size: 12px;
-	padding-bottom: 20px;
-	padding-top: 20px;
-	text-align: center;
-	width: 100%;
+  font-size: 12px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+  width: 100%;
 }
+
+.footer a {
+  color: #888888 !important;
+}
+
 div .error {
-	color: red;
-	margin-top: 10px;
+  color: red;
+  margin-top: 10px;
 }
 
 .header .page-header {
-	color: #EEEEEE;
-	font-size: 24px;
-	margin: 20px 0 10px;
-	text-align: center;
+  color: #888888;
+  font-size: 24px;
+  margin: 20px 0 10px;
+  text-align: center;
 }
 
 .input {
-	border: none;
-	border-bottom: 1px solid;
+  border: none;
+  border-bottom: 1px solid;
 }
 
 .label {
-	color: #bbbbbb;
-	float: left;
-	font-size: 10px;
-	font-weight: inherit;
-	text-align: right;width: 100%;
+  color: #bbbbbb;
+  float: left;
+  font-size: 10px;
+  font-weight: inherit;
+  text-align: right;width: 100%;
 }
 
 .lluna {
 }
 
 .lluna-help {
-	float: right;
-	padding-top: 10px;
+  float: right;
+  padding-top: 160px;
 }
 
 .lluna-help-ok {
-	margin-bottom: 10px;
-	margin-top: -10px;
+  margin-bottom: 10px;
+  margin-top: -10px;
 }
 
 .lluna-help-text .header {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 .lluna-help-text .content {
-	font-size: 12px;
-	padding-top: inherit;
+  font-size: 12px;
+  padding-top: inherit;
 }
 
-.lluna-message {
-	min-height: 40px;
-	height: 100%;
-	width: 100%;
-}
-
-.lluna-message .image {
-	float: left;
-	height: 100%;
-	max-width: 40%;
-	text-align: center;
-	width: 40%;
-}
-
-.lluna-message .notice {
-	font-size: 8px;
-	text-align: center;
-	margin-bottom: 1px;
-}
-
-.lluna-message .text {
-	float: left;
-	height: 100%;
-	margin-right: 4px;
-	max-width: 50%;
-}
-
-.lluna-message .header {
-	font-size: 16px;
-	margin-bottom: 4px;
-}
-
-.lluna-message .content {
-	font-size: 12px;
-	margin-top: inherit;
-	padding: inherit;
+.lluna-notice {
+  font-size: 12px;
+  text-align: center;
 }
 
 .lluna-password  {
-	color: green;
-	margin-top: 10px;
-	min-width: 1px;
+  color: green;
+  margin-top: 10px;
+  min-width: 1px;
 }
 
 .lluna-password::selection {
-	background-color: green;
+  background-color: green;
 }
 
 .lluna-password-label {
-	color: green;
-	margin-top: 10px;
+  color: green;
+  margin-top: 10px;
 }
 
 .message {
-	background-image: url('../img/white.png');
-	height: 80px;
+  background-image: url('../img/white.png');
+  height: 80px;
 }

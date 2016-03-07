@@ -1,25 +1,62 @@
 <!DOCTYPE html>
+<!--
+/**
+  * The MIT License (MIT)
+  *
+  * Copyright (c) 2015 laimagine
+  *
+  * Permission is hereby granted, free of charge, to any person obtaining a copy
+  * of this software and associated documentation files (the "Software"), to deal
+  * in the Software without restriction, including without limitation the rights
+  * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  * copies of the Software, and to permit persons to whom the Software is
+  * furnished to do so, subject to the following conditions:
+  *
+  * The above copyright notice and this permission notice shall be included in all
+  * copies or substantial portions of the Software.
+  *
+  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  * SOFTWARE.
+  *
+  * <author>LA Imagine</author>
+  * <email>contact@laimagine.com</email>
+  */
+-->
 <html>
     <head>
         <meta charset='utf-8'>
         <meta name='format-detection' content='telephone=no' />
         <meta name='msapplication-tap-highlight' content='no' />
         <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'>
-
-        <script data-main='app' src='js/require.js'></script>
-        <script type='text/javascript' src='cordova.js'></script>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' laimagine.com">
 
         <link rel='stylesheet' href='css/bootstrap.css' />
+        <link rel='stylesheet' href='css/bootstrap-material-design.min.css' />
+        <link rel='stylesheet' href='css/ripples.min.css' />
         <link rel='stylesheet' href='css/lluna.css' />
+
+        <script data-main='app' src='js/jquery.js'></script>
+        <script data-main='app' src='js/require.js'></script>
+        <script data-main='app' src='js/material.min.js'></script>
+        <script data-main='app' src='js/ripples.min.js'></script>
+        <script data-main='app' src='cordova.js'></script>
+        <script language="javascript">
+          $(document).ready(function() {
+            $.material.init();
+          });
+        </script>
     </head>
 
     <body class='app'>
-		<div class='header'></div>
-		<div class='menu'></div>
-        <div class='container'>
-            <div class='content'></div>
-        </div>
-		<div class='message'></div>
-		<div class='footer'></div>
+      <div class='header'></div>
+      <div class='container'>
+        <div class='content'></div>
+      </div>
+      <div class='footer'></div>
     </body>
 </html>

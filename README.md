@@ -11,7 +11,5 @@ More information - http://www.laimagine.com/lluna.html
 
 Android Store - https://play.google.com/store/apps/details?id=com.laimagine.lluna&hl=en
 
-Apple Store - https://itunes.apple.com/tz/app/lluna/id1042146978?mt=8
-
 ## requires
 - phonegap/cordova [https://cordova.apache.org/]
